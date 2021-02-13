@@ -41,14 +41,21 @@ body {
 .a :visited{
     color: gray;
 }
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .Main-Section img{
     max-height: 200px;
 }
 .Main-Section h2{
-    margin-bottom: 20px;
+    margin-top: 20px;
     font-size: 36px;
+    text-align: center;
 } 
-.About-me, .Projects, .Work, .Education, .Socialmedia, .Contacts{
+.About-me, .Projects, .Work, .Education{
     margin-bottom: 20px;
     padding: 50px;
     height: 350px;
