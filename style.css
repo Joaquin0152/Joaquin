@@ -55,8 +55,8 @@ body {
 }
 .Main-Section img{
     display: block;
-    margin: 50px auto;
-    max-width: 200px;
+    margin: 0px;
+    max-width: 250px;
 }
 .float-left{
     float: left;
@@ -73,6 +73,10 @@ body {
     padding: 50px;
     height: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #c56424;
+    background-color: gray;
     color: #ffffff;
+}
+.List{
+    float: right;
+    font-size: 35px;
 }
