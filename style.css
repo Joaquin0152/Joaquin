@@ -51,7 +51,7 @@ body {
     margin-left: 20px;
 }
 .Main-Section p{
-    text-align: right;
+    text-align: center;
 }
 .Main-Section img{
     display: block;
@@ -76,7 +76,17 @@ body {
     background-color: gray;
     color: #ffffff;
 }
-.List{
-    float: right;
-    font-size: 35px;
+.List {
+    text-align: center;
+    font-size: 15px;
+    list-style: none;
+}
+.Education img{
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    width: 400px;
+    height: 200px;
+    margin: 0;
+
 }
