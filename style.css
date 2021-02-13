@@ -38,3 +38,7 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+img{
+    height: 200px;
+    width: 200px;
+}
