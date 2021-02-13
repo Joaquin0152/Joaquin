@@ -38,27 +38,40 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-.a :visited{
-    color: gray;
+.header a:visited{
+    color: white;
+}
+.header a:hover{
+    color: blue;
+    background-color: gray;
 }
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+.Main-Section p{
+    text-align: right;
+}
 .Main-Section img{
-    max-height: 200px;
+    display: block;
+    margin: 50px auto;
+    max-width: 200px;
+}
+.float-left{
+    float: left;
+    margin 0%;
+    align-content: flex-start;
 }
 .Main-Section h2{
-    margin-top: 20px;
-    font-size: 36px;
+    margin-top: 5px;
+    font-size: 40px;
     text-align: center;
 } 
 .About-me, .Projects, .Work, .Education{
     margin-bottom: 20px;
     padding: 50px;
-    height: 350px;
+    height: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #c56424;
     color: #ffffff;
