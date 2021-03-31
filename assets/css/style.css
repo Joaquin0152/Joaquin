@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-        background: url('/assets/img/fairLadyZ.jpg');
+        background: url('fairLadyZ.jpg');
         text-align: center;
         width: 100%;
         height: auto;
