@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 900px;
+}
+
+.header {
+        background: url('fairLadyZ.jpg');
+        text-align: center;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        overflow: hidden;
+        border-radius: 0 0 85% 85% / 30%;
+}
+    
+header .overlay{
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+        color: #FFF;
+        text-shadow: 1px 1px 1px #333;
+      background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+        
+    }
+
+.header h1 h2{
+    display: inline-block;
+    font-size: 45px;
+}
+.header nav {
+    padding-top: 0px;
+    margin-right: 15px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:  20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.header a:visited{
+    color: white;
+}
+.header a:hover{
+    color: blue;
+    background-color: gray;
+}
+.col-12{
+    background-color: gray ;
+    color: white;
+}
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    justify-content: center;
+}
+#content{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+    @media screen and (max-width: 992px) {
+        .card {
+          width: 50%;
+        }
