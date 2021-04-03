@@ -6,18 +6,19 @@
 
 body {
     height: 900px;
+    
 }
 
 .header {
         background: url('fairLadyZ.jpg');
         text-align: center;
-        width: 100%;
-        height: auto;
-        background-size: cover;
+        background-size: auto;
         background-attachment: fixed;
         position: relative;
         overflow: hidden;
         border-radius: 0 0 85% 85% / 30%;
+        background-repeat: no-repeat;
+        background-color: lightslategray;
 }
     
 header .overlay{
@@ -33,6 +34,7 @@ header .overlay{
 .header h1 h2{
     display: inline-block;
     font-size: 45px;
+    color: white;
 }
 .header nav {
     padding-top: 0px;
@@ -57,11 +59,6 @@ header .overlay{
 }
 .header a:hover{
     color: blue;
-    background-color: gray;
-}
-.col-12{
-    background-color: gray ;
-    color: white;
 }
 img{
     width: 400px;
@@ -72,6 +69,7 @@ img{
 #content{
     display: flex;
     justify-content: space-around;
+    color: white
 }
 
 @media screen and (max-width: 768px) {
